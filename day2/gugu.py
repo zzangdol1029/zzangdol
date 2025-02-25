@@ -4,7 +4,7 @@ def gugudan():
         print(f"*** {i}단 ***")
         for j in range(1, 10):  # 각 단의 1~9 곱셈
             print(f"{i} x {j} = {i * j}")
-        print() # 단 사이에 간격 추가
+        print() #테스트 단 사이에 간격 추가
 
 
 # 함수 호출
