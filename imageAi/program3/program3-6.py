@@ -1,7 +1,7 @@
 import cv2 as cv
 import matplotlib.pyplot as plt
 
-img=cv.imread('../program4/soccer.jpg')
+img=cv.imread('../program3/soccer.jpg')
 
 gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 plt.imshow(gray,cmap='gray'),plt.xticks([]),plt.yticks([]),plt.show()

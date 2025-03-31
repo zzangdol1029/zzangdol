@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 # 이미지 읽고 크기 조정
-img = cv.imread('../program4/soccer.jpg')
+img = cv.imread('../program3/soccer.jpg')
 img = cv.resize(img, dsize=(0, 0), fx=0.25, fy=0.25)
 
 

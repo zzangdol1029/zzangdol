@@ -19,7 +19,7 @@ def my_cvtGray2(bgr_img):
 
 
 # 테스트용 이미지 로드
-img = cv.imread('../program4/girl_laughing.jpg')
+img = cv.imread('/girl_laughing.jpg')
 if img is None:
     raise ValueError("이미지 파일을 찾을 수 없습니다. 'girl_laughing.png' 경로를 확인하세요.")
 

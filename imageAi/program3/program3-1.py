@@ -1,7 +1,7 @@
 import cv2 as cv
 import sys
 
-img=cv.imread('../program4/soccer.jpg')
+img=cv.imread('../program3/soccer.jpg')
 if img is None:
     sys.exit('파일을 찾을수 없습니다.')
 cv.imshow('original_RGB',img)
