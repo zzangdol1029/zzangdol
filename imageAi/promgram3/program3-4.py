@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-img=cv.imread('JohnHancocksSignature.png',cv.IMREAD_UNCHANGED)
+img=cv.imread('../program4/JohnHancocksSignature.png', cv.IMREAD_UNCHANGED)
 
 if img.shape[-1] == 4:
     t,bin_img=cv.threshold(img[:,:,3],0,255,cv.THRESH_BINARY+cv.THRESH_OTSU)
