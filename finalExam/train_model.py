@@ -3,7 +3,7 @@ from keras.datasets import mnist  # MNIST 데이터셋 로드
 from keras.models import Sequential  # 순차적 레이어 모델 생성
 from keras.layers import Dense, Conv2D, MaxPooling2D, Flatten  # 신경망 레이어
 import matplotlib.pyplot as plt  # 그래프 시각화
-plt.rcParams['font.family'] = 'AppleGothic'  # Mac 한글 폰트 설정
+plt.rcParams['font.family'] = 'Malgun Gothic'  # Windows 한글 폰트 설정
 plt.rcParams['axes.unicode_minus'] = False   # 마이너스 깨짐 방지
 import tensorflow as tf  # 딥러닝 프레임워크
 import os  # 파일 시스템 작업
